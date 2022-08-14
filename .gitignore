@@ -1,0 +1,22 @@
+*.json
+*DS_Store
+
+WeatherProject/node_modules
+
+To-Doist-v1/node_modules
+To-Doist-v1/views
+
+Newsletter-Signup/node_modules
+
+my-express-server/node_modules
+
+Drum Kit Starting Files/_MACOSX
+
+DOM Challenge Starting Files/MACOSX
+
+Dicee Challenge - Starting Files/_MACOSX
+
+Calculator/node_modules
+
+
+

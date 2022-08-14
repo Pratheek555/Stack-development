@@ -1,0 +1,215 @@
+body{
+    font-family: 'Montserrat-black', sans-serif;
+    font-weight: 300;
+}
+
+#title{
+    background-color: #ff4c68;
+}
+
+.container-fluid{
+    padding: 3% 15% ;
+}
+
+
+
+h1{
+    font-family: 'Montserrat-black', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+    color: white;
+}
+h2{
+    font-size: 3rem;
+    
+    
+
+}
+/* Navigation bar 
+4.5rem
+1.2rem
+5 3 5 0
+*/
+#title{
+    position: relative;
+    text-align: left;
+   
+}
+.navbar{
+    padding: 0px;
+    margin-bottom: 4.5rem;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+}
+
+/* download buttons */
+.download-button{
+    margin: 5% 3% 5% 0%;
+}
+
+/* Title image */
+
+.title-image{
+    width: 60%;
+    transform: rotate(25deg);
+    
+    position: absolute;
+   
+    right: 30%;
+    /* margin-bottom: 20px; */
+}
+
+/* Features */
+#features{
+    position: relative;
+    z-index: 1;
+    padding: 7% 15%;
+    background-color: white;
+}
+
+
+.feature-preview{
+    text-align: center;
+    margin-top: 50px;
+    padding: 7%;
+}
+
+.feature-icon{
+    color: #ed8172;
+}
+.feature-icon:hover{
+    color: #ff4c68;
+}
+
+.feature-title{
+    font-size: 1.5rem;
+    font-family: montserrst, sans-serif;
+    font-weight: bold;
+}
+.feature-sub-title{
+    color: #8f8f8f;
+}
+
+/* Testimonials */
+
+#testimonials{
+   
+    text-align: center;
+    background-color:#ed8172;
+}
+.testimonial-text{
+    color: white;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin:20px;
+}
+
+#press{
+    background-color:#ed8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    text-align: center;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing Cards */
+#pricing{
+    text-align: center;
+    padding: 100px;
+}
+.pricing-preview{
+    padding: 3% 2%;
+}
+.cards{
+    /* text-align: center; */
+
+}
+
+.plan-info{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.sign-up{
+    margin-top: 15px;
+}
+.price{
+    font-weight: 500;
+}
+.price-mo{
+    color: #8f8f8f;
+    font-weight: 500;
+}
+
+
+/* Call to action */
+
+#cta{
+    color: white;
+    background-color: #ff4c68;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.cta-title{
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+/* Footer Section */
+
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+    height: 250px;
+    background-color: white;
+}
+
+.social-media-icons{
+    margin-left: 15px;
+}
+
+.cpy-right{
+    color: #8f8f8f;
+}
+
+
+
+
+
+
+@media (max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+        
+        margin: 0px;
+        right: 0%;
+    }
+    
+}

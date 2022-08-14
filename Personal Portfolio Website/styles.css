@@ -1,0 +1,95 @@
+body{
+    background-color: #000;
+    color: white;
+    font-family: 'Source';
+    font-family: 'Source Code Pro', monospace;
+}
+
+/* Navbar */
+
+.navbar{
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+
+    justify-content: space-between;
+    align-content: center;
+}
+
+.brand-name{
+    text-align: center;
+    justify-content: center;
+}
+
+.nav-links{
+
+}
+
+.nav-items{
+    text-align: center;
+    margin-left: 41px;
+}
+
+.navbar p{
+    display: inline-block;
+}
+
+
+/* main body */
+
+.main-body{
+    display: flex;
+    align-items: center;
+    padding: 100px;
+}
+
+/* right-side */
+.landing-img{
+    margin-top: 50px;
+}
+
+/* left-side */
+.left{
+    
+    /* margin-left: 200px; */
+    margin-left: 50px;
+}
+
+.left p {
+    display: block;
+  width: 75%;
+}
+.bonjour{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 63px;
+    letter-spacing: -0.07em;
+}
+
+.name{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 78px;
+    letter-spacing: -0.01em;
+}
+
+.designation{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 29px;
+    letter-spacing: -0.065em;
+}
+
+.info{
+    
+
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 134.7%;
+    letter-spacing: 0.015em;
+}
